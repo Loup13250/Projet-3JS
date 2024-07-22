@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       img.src = allObjects[i].imageUrl;
       img.alt = allObjects[i].title;
       figure.appendChild(img);
-
+      // zfdsfsdf
       var figcaption = document.createElement("figcaption");
       figcaption.textContent = allObjects[i].title;
       figure.appendChild(figcaption);
