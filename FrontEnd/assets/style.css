@@ -149,6 +149,17 @@ section {
   gap: 10px;
 }
 
+a:link {
+  text-decoration: none; /* Supprime le soulignement */
+  color: inherit; /* Utilise la couleur héritée du parent */
+}
+a:hover {
+  color: inherit; /* Utilise la couleur héritée du parent lorsque la souris survole le lien */
+}
+a:visited {
+  color: inherit; /* Utilise la couleur héritée du parent même après que le lien ait été visité */
+}
+
 /* bouttons  */
 /* bouttons  */
 /* bouttons  */
@@ -157,14 +168,14 @@ section {
   color: #1d6154; /* Couleur du texte */
   font-family: "Syne", sans-serif; /* Police du texte */
   border: 1px solid #1d6154; /* Bordure verte */
-  padding: 5px 20px; /* Padding plus petit pour des boutons plus petits */
+  padding: 5px 20px; /* Padding  */
   text-align: center;
 
   font-size: 16px;
   line-height: 19.2px;
   cursor: pointer;
   transition-duration: 0.6s;
-  border-radius: 25px; /* Coins très arrondis */
+  border-radius: 25px; /* Coins  arrondis */
   margin-bottom: 50px;
 }
 
@@ -176,6 +187,62 @@ section {
 /* bouttons  */
 /* bouttons  */
 /* bouttons  */
+
+/* auth  */
+/* auth  */
+/* auth  */
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container .button {
+  margin-bottom: 20px;
+}
+
+.login-container a {
+  display: block;
+  text-align: center;
+}
+
+.login-container h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+}
+
+.button.login-button {
+  background-color: #1d6154; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte du bouton */
+}
+
+.button.login-button:hover {
+  background-color: white; /* Couleur de fond du bouton lorsqu'il est survolé */
+  color: #1d6154; /* Couleur du texte du bouton lorsqu'il est survolé */
+}
+/* auth  */
+/* auth  */
+/* auth  */
+
+#logingras {
+  /* bouton login en gras sur la page login  */
+  font-weight: bold;
+}
 
 h1 {
   display: flex;
